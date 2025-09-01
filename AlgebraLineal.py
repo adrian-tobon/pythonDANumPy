@@ -18,6 +18,8 @@ y = np.array([5,2])
 print(np.dot(x,y))
 print(x @ y)
 
+#pendiente producto cruz
+
 #determinante
 print(np.linalg.det(A))
 print(np.linalg.det(B))
@@ -33,6 +35,8 @@ else:
     print("A no es invertible")
     
 #descomposicion de matrices
+
+#pendiente factorizacion LU
 
 #QR
 print(A)
