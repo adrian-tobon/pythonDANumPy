@@ -36,5 +36,20 @@ print(d)
 e = b.transpose()
 print(e)
 
-#funciones deagregacion sobre filas y columnas especificas
+#funciones de agregacion sobre filas y columnas especificas
 print(np.mean(b,axis=0))
+
+
+#vectorizar funciones
+
+def is_even(num):
+    return num % 2 == 0
+
+vect_is_even = np.vectorize(is_even)
+
+numbers = np.array([1,2,3,4,5,6])
+
+results = vect_is_even(numbers)
+print(results)
+
+
